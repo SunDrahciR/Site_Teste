@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f7f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  nav {
+    text-align: right;
+    margin-top: -20px;
+  }
+  
+  nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #0073aa;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #fff;
+    flex-wrap: wrap;
+  }
+  
+  .hero img {
+    width: 250px;
+    margin-right: 40px;
+  }
+  
+  .hero-text {
+    max-width: 500px;
+  }
+  
+  .hero-text h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text p {
+    color: #666;
+  }
+  
+  .button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #48c147;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .payments {
+    margin-top: 10px;
+  }
+  
+  .payments img {
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .features {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .features h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .feature-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .feature-item h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #0073aa;
+  }
+  
+  .feature-item p {
+    font-size: 14px;
+    color: #666;
+  }
